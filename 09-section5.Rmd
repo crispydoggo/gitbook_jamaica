@@ -1,0 +1,175 @@
+# Main findings {#section5}
+
+As mentioned above, this Preparedness Diagnostic uses as a reference a four dimensions/bundles analysis, each one contains elements considered relevant to have an "Ideal RBM System". This Ideal RBM System serves as a benchmark that allow to compare the current situation in Jamaica in relation to the best possible scenario regarding practices, uses, and results of RBM. In this way, figure 5 shows the rate of progress that Jamaica has in each of the dimensions of analysis, with respect to the ideal scenario. 
+
+The elements and sub-elements of the reference Ideal RBM System are not usually part of the status quo, they should be identified, designed and developed; following this, a country that has not considered adopting RBM practices would probably not comply or show advances in any of the analysed elements. In this sense, all the advances identified in this diagnosis represent valuable progress.
+
+It is important to mention that, although there is a numerical value for each dimension, behind the numbers there was a qualitative analysis that determined the current situation of Jamaica regarding RBM. Furthermore, these "ratings" are in terms of the ideal scenario, so in no way does it represent an outright success or failure, but rather approximation to the best possible situation of the RBM.
+
+```{r, include=FALSE}
+source("radar.R", local = knitr::knit_global())
+
+data <- filter(radar, country == "Jamaica")
+
+# To use the fmsb package, I have to add 2 lines to the dataframe: the max and min of each topic to show on the plot
+  
+data <- rbind(rep(100,4) , rep(0,4) , select(data, -country, -order))
+
+```
+
+<center>
++---------------------------+------------------------+
+| DIMENSION                 | LEVEL OF PROGRESS      | 
++===========================+========================+
+| INSTITUTIONALISATION      |    25%      | 
++---------------------------+-------------+
+| EXECUTION FRAMEWORK       |    31%      | 
++---------------------------+-------------+
+| TECHNICAL CAPABILITIES    |    34%      | 
++---------------------------+-------------+
+| USE OF EVIDENCE           |    10%     | 
++---------------------------+-------------+
+
+</center>
+
+```{r figure5, echo = FALSE, fig.cap = "Level of progress of the Ideal RBM System", out.width = '70%',fig.align = 'center'}
+radar_rbm( data[1:3,], colors_border[1,], colors_in[1,], whole = TRUE )
+```
+
+Considering this rate of progress, a metric was built to progressively identify five levels of maturity of RBM systems. In this way, the data presented above are averaged and a graph is generated for all the dimensions and a graph that contains the average of the dimensions, identifying the level in which the country falls . The 5 levels are:
+
+1.	Early initiatives
+2.	Committed development
+3.	RBM System
+4.	Consolidated practices
+5.	Mature State
+
+For the case of Jamaica, the findings regarding the level of maturity of its RBM system are the following:
+
+Jamaica is currently at the Committed development level. This occurs because even though the country has various RBM tools and activities in place, they are not articulated and regulated with a whole-of-government approach and incorporated in the planning and budgeting processes, Undoubtedly, one of the great efforts intended to correct this is the drafting of its RBM Policy, in which all government efforts will be articulated to strengthen the RBM system and obtain the expected results. However, as this Policy is not published yet, we cannot incorporate it into this diagnosis.
+
+
+
+##	Results by dimension 
+
+The results of this diagnosis for each of the dimensions analysed (and their ideal elements) are presented below in a synthetic manner. For more detailed information on each dimension, elements, and sub-elements, please see [appendix B](#appendixB) and visit the interactive platform with all the disaggregated findings of this PD.
+
+
+```{r , include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
+### Institutionalisation 
+
+:::dim1
+**Key Message:**
+Jamaica has regulations/frameworks to define its RBM system, identifying the relevant actors that coordinate and implement it (e.g., PMEB, PIOJ, MOFPS Performance and Monitoring Branch). However, although there are regulations/frameworks and processes in place regarding RBM, these are not articulated, so there is no connection between the RBM system and the continuous improvement of planning and budgeting decision-making to be more results-oriented.
+:::
+
+```{r , echo=FALSE, results="asis"}
+library(readxl)
+library(kableExtra)
+library(dplyr)
+
+
+results <- read_excel("./Data/results.xlsx")
+
+dim_1 <-  results %>% 
+          filter( dimension_id == 1) %>% 
+          select( -dimension, -dimension_id, -element_id ) 
+
+kable(dim_1) %>%
+          kable_paper("striped", full_width = T, font_size = 12) %>%
+          column_spec(1, bold = T, border_right = T) %>%
+          column_spec(2, width = "33em")
+          
+
+```
+
+
+### Execution Framework 
+
+:::dim2
+**Key Message:**
+Jamaica has in the Office of the Cabinet the Performance Management and Evaluation Branch which acts as the coordinator of the RBM system and oversees the performance of the MDAs and harmonizing their Business Plans aligned with national objectives. The PMEB coordinates the development of a common language around M&E and RBM, and it is recognized across government at all levels. However, to consolidate the M&E system, it is necessary to guide and structure the processes and the management of human and financial resources to generate the evidence derived from M&E activities that link MDAs' planning, budgeting, and implementation of their activities to achieve the desired results.
+:::
+
+
+
+
+```{r , echo=FALSE, results="asis"}
+dim_1 <-  results %>% 
+          filter( dimension_id == 2) %>% 
+          select( -dimension, -dimension_id, -element_id ) 
+
+kable(dim_1) %>%
+          kable_paper("striped", full_width = T, font_size = 12) %>%
+          column_spec(1, bold = T, border_right = T) %>%
+          column_spec(2, width = "33em")
+          
+
+```
+
+
+### Technical capabilities
+
+
+:::dim3
+**Key Message:**
+Although there are some efforts to strengthen RBM and M&E capabilities within the GoJ, there is no sufficient offer (both private or public) or demand (from the government) for M&E services and capacity building in RBM. Also, there are no sufficient skilled personnel within the government with the capability to identify M&E needs and conduct M&E activities to orientate planning and budgeting towards results.
+:::
+
+
+```{r , echo=FALSE, results="asis"}
+
+dim_1 <-  results %>% 
+          filter( dimension_id == 3) %>% 
+          select( -dimension, -dimension_id, -element_id ) 
+
+kable(dim_1) %>%
+          kable_paper("striped", full_width = T, font_size = 12) %>%
+          column_spec(1, bold = T, border_right = T) %>%
+          column_spec(2, width = "33em")
+          
+
+```
+
+
+### Use of evidence
+
+
+:::dim4
+**Key Message:**
+Jamaica has some planning and budgeting information publicly available, but not regarding GoJ´s performance. Also, there are no incentives to undertake knowledge management activities and use that knowledge. The evidence derived from the RBM system and M&E practices is not systematically included in the planning, budgeting, and implementing processes. A strategy to generate a culture of evidence use is not identified.
+:::
+
+
+```{r , echo=FALSE, results="asis"}
+
+dim_1 <-  results %>% 
+          filter( dimension_id == 4) %>% 
+          select( -dimension, -dimension_id, -element_id ) 
+
+kable(dim_1) %>%
+          kable_paper("striped", full_width = T, font_size = 12) %>%
+          column_spec(1, bold = T, border_right = T) %>%
+          column_spec(2, width = "33em")
+          
+
+```
+
+##	Main challenges to strengthen the RBM system
+
+As mentioned in [section 2.2](#section2), the development of an RBM System is a complex, nonlinear, and continuous process that must be contextualized in each country. In doing so, it is important to consider the main challenges that Dominica faces when it comes to strengthening its RBM system. This diagnosis identifies three major challenges:
+
+1.	Changing the culture and fostering the enabling environment to have an RBM system in place implies a change of mindset of public servants at all levels. It should be considered that throughout the process there must be a constant awareness/sensitization strategy, both in the short and medium term, that allows public servants to identify the importance to have this mindset change in pursuit of RBM. In other words, on a regular basis,  there needs to be reminders on the importance of RBM and its impact on improving performance and lives of all citizens
+
+2.	Since this collaboration constitutes a whole-of-government approach, it is necessary to have a top-bottom commitment in which leaders and decision-makers demonstrate the benefits of the RBM system through evidence informed actions that are generated by the RBM system. This means that we need a top-bottom approach to use, and thereby demonstrate its usefulness, the information and evidence derived from the RBM system to improve planning and budgeting decisions.
+
+3.	For the RBM system to be sustainable, it is critical to generate a system of incentives and ensure that there is a balance between positive and negative incentives (such as potential penalties for non-compliance), to advance and sustain the system. The positive incentives can take different forms, from monetary to symbolic, such as the presentation of awards to staff and units and recognition for good performance in public service.
+
+
+
+
+

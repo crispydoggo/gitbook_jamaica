@@ -1,0 +1,8 @@
+"0","source(""radar.R"", local = knitr::knit_global())"
+"0",""
+"0","data <- filter(radar, country == ""Jamaica"")"
+"0",""
+"0","# To use the fmsb package, I have to add 2 lines to the dataframe: the max and min of each topic to show on the plot"
+"0","  "
+"0","data <- rbind(rep(100,4) , rep(0,4) , select(data, -country, -order))"
+"0",""

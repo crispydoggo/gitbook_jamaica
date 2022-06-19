@@ -1,0 +1,14 @@
+"0","library(dplyr)
+library(readxl)
+library(kableExtra)
+"
+"2","
+Attaching package: ‘kableExtra’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    group_rows
+
+"
+"0","pipol <- read_excel(""./Data/participants.xlsx"")"

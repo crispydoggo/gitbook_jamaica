@@ -1,0 +1,165 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+
+h1 {
+  color: #375740;
+}
+
+h2 {
+  color: #375740;
+  
+}
+
+h3{
+  color: #8e7923;
+}
+
+body {
+text-align: justify}
+
+
+
+/*-----Body Links-------*/
+
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: #375740;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a:hover {
+color: #4fd7b1; /* darker color when hovering */
+text-decoration: none;
+}
+
+
+/*-----Margins-------*/
+
+.title {
+  margin-top: 2em !important;
+  margin-bottom: 0.75em;
+}
+
+.section h1,
+.section h2, 
+.section h3, 
+.section h4, 
+.section h5 { 
+  padding-top: 0.2em !important; /*adding so much padding because theme adds a margin-top: -65px by default */
+  margin-bottom: 0.75em;
+}
+
+
+/*--- LOGO ---*/
+
+.toc-logo {
+  width: 200px !important;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+.toc-logo img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.summary > li:first-child {
+  height: auto !important; 
+}
+
+
+/*-- Part colors --*/ 
+
+
+li.appendix span, li.part span { /* for TOC part names */
+  margin-top: 1em;
+  color:  #6b807b !important;
+  opacity: 1 !important;
+  text-transform: uppercase;
+}
+
+/*-- TOC background --*/ 
+
+
+.book .book-summary {
+  background: #375740;
+  border-right: none;
+}
+
+
+/* all TOC list items, basically */
+
+.book .book-summary ul.summary li a, 
+.book .book-summary ul.summary li span {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+
+/*active TOC links*/
+
+.book .book-summary ul.summary li.active>a { 
+  color: #6afbd6 !important;
+  border-left: solid 4px;
+  border-color: #6afbd6;
+  padding-left: 11px !important;
+}  
+
+
+.summary a:hover {
+  color: #6afbd6 !important;
+} 
+
+
+/* -----------Sidebar div tips------------- */
+/* from r-pkgs.org*/
+
+  div.dim1, div.dim2, div.dim3, div.dim4 {
+    padding: 1em;
+    margin: 1em 0;
+    padding-left: 300px;
+    background-size: 310px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    min-height: 200px;
+    color: #4e4c42;
+    font-size: 70%; 
+    background-color: white;
+    border: solid 2px #7a7e95;
+  }
+
+div.dim1 {
+  background-image: url("./images/dim_1.png");
+}
+
+div.dim2 {
+ background-image: url("./images/dim_2.png");
+}
+
+div.dim3 {
+  background-image: url("./images/dim_3.png");
+}
+
+div.dim4{
+  background-image: url("./images/dim_4.png");
+}
+
+
+
+
+

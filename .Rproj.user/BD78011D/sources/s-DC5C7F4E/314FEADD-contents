@@ -1,0 +1,32 @@
+# List of participants in the Preparedness Diagnostic {#appendixD}
+
+
+```{r , include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+
+```
+
+
+```{r , echo=FALSE, results="asis"}
+library(dplyr)
+library(readxl)
+library(kableExtra)
+
+pipol <- read_excel("./Data/participants.xlsx")
+
+pipol <- pipol %>% 
+         filter( !is.na(`Position `) ) 
+
+
+kable(pipol, caption = "List of participants in the Preparedness Diagnostic") %>%
+          kable_paper("striped", full_width = T, font_size = 15) %>%
+          column_spec(1, bold = T) %>% 
+          footnote(general = "Anonymously, 20+ public servants answered the online questionnaires in all Jamaica´s MDAs. Their positions were: Corporate Planners, Permanent Secretaries, Deputy Permanent Secretaries, Directors, Managers, Budget and Planning accountable figure, and Project Managers.")
+          
+
+
+
+    
+
+```
