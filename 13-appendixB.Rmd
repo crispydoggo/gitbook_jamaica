@@ -42,7 +42,7 @@ aux <- ideal_1 %>%
 
 ideal %>% 
   filter( dimension_id == 2, sub_id != 0) %>% 
-  select("II. Excecution Framework Detailed Findings" = `Ideal element/sub-element`, " " = `Main results/findings`) %>% 
+  select("II. Execution Framework Detailed Findings" = `Ideal element/sub-element`, " " = `Main results/findings`) %>% 
   kbl( ) %>%
   kable_paper("striped", full_width = F)%>%
   pack_rows(aux$indicator[1], 1, 5) %>%
