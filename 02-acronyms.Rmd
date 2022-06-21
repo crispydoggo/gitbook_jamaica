@@ -1,15 +1,24 @@
 # Acronyms and abbreviations {-}
 
-**CARICOM** -The Caribbean Community 
+**CARICOM** -The Caribbean Community
 
 **CLEAR LAC** - Center for Learning on Evaluation and Results for Latin America and Caribbean
 
-**CREAD** - Climate Resilience Executive Agency of Dominica
+**EPMS** – Employee Performance Management System
 
-**CRRP** – Climate Resilience and Recovery Plan 2020 – 2030
+**EPMP** – Employee Performance Management Policy
 
-**NRDS** – National Resilience Development Strategy 2030
+**FAAA** – Financial Administration and Audit Act
 
-**PSIP** – Public Sector Investment Programme
+**GEI** – Global Evaluation Initiative
 
+**GoJ** – Government of Jamaica
+
+**MDAs** – Ministries, Departments and Agencies
+
+**MIND** – Management Institute for National Development MOFPS -Ministry of Finance and the Public Service
+
+**MTF** - Mid-Term Socio-Economic Policy Framework 
+
+**MTRBB** – Medium-Term Results Based Budgeting
 

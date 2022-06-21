@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.7)  19 JUN 2022 14:52
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.7)  20 JUN 2022 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -875,7 +875,7 @@ File: ./images/tb1_4.png Graphic file (type bmp)
 ]
 Chapter 4.
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
+Underfull \hbox (badness 10000) in paragraph at lines 463--463
 [][]\TU/lmr/m/n/8 Consulted in: []$[][][][][] [] [] [] [][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][][][][][] [] [][][][][][] [][] [][][][][][][][] [][] [][][][][][][] [][]
  []
 
@@ -884,7 +884,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 453--453
 ]
 Chapter 5.
 
-Overfull \hbox (215.49605pt too wide) in paragraph at lines 532--534
+Overfull \hbox (215.49605pt too wide) in paragraph at lines 542--544
 []|[]|  
  []
 
@@ -892,7 +892,7 @@ Overfull \hbox (215.49605pt too wide) in paragraph at lines 532--534
 File: _main_files/figure-latex/figure5-1.pdf Graphic file (type pdf)
 <use _main_files/figure-latex/figure5-1.pdf>
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 589--611
+Underfull \hbox (badness 10000) in paragraph at lines 599--621
 
  []
 
@@ -903,7 +903,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (810.72751pt too high) has occurred while \output is active []
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 620--634
+Underfull \hbox (badness 10000) in paragraph at lines 630--644
 
  []
 
@@ -911,7 +911,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 620--634
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 643--657
+Underfull \hbox (badness 10000) in paragraph at lines 653--667
 
  []
 
@@ -919,7 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--657
 Overfull \vbox (328.42775pt too high) has occurred while \output is active []
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 666--680
+Underfull \hbox (badness 10000) in paragraph at lines 676--690
 
  []
 
@@ -938,47 +938,47 @@ File: ./images/figure_7.png Graphic file (type bmp)
 [49
 
 ] [50] [51]
-Overfull \hbox (63.7201pt too wide) in paragraph at lines 751--918
+Overfull \hbox (63.7201pt too wide) in paragraph at lines 761--928
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 6103.93896pt on input line 918.
+LaTeX Warning: Float too large for page by 6103.93896pt on input line 928.
 
 [52] [53] [54
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 934--936
+Underfull \hbox (badness 10000) in paragraph at lines 944--946
 [] [] [][][] [] [][][] [] [][][] [] [][][][][][][][][][] [][] [][][][][][][][] [][] [][][][][][][][] [] [][][][][][] [][] [][][] [][] [][][][][] [] [][][][][][][] [][]
  []
 
 
-Overfull \hbox (318.10999pt too wide) in paragraph at lines 940--942
+Overfull \hbox (318.10999pt too wide) in paragraph at lines 950--952
 \TU/lmr/m/n/10 book. []$[][][][][] [] [] [] [][][][][] [] [][] [] [][][] [] [][][][][][][][] [] [][][] [] [][][][]$[]:~:text=RBM%20is%20a%20management%20strategy,higher%20level%20goals%20or%20impact). 
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 944--947
+Underfull \hbox (badness 1014) in paragraph at lines 954--957
 \TU/lmr/m/n/10 Overview, Jamaica. Consulted in: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 947--948
+Underfull \hbox (badness 3657) in paragraph at lines 957--958
 []\TU/lmr/m/n/10 World Bank. Return to paradise: A poverty perspective on
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 947--948
+Underfull \hbox (badness 4543) in paragraph at lines 957--958
 \TU/lmr/m/n/10 Jamaica’s COVID-19 recovery response. Consulted in: []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--948
+Underfull \hbox (badness 10000) in paragraph at lines 957--958
 [] [] [][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][][][][][] [] [][][][][][] [][] [][][][][][][][] [][] [][][][][][][] [][] [][][][][][][][][][][] [][]
  []
 
 [55]
-Underfull \hbox (badness 1874) in paragraph at lines 982--984
+Underfull \hbox (badness 1874) in paragraph at lines 992--994
 []\TU/lmr/m/n/10 Ministry Of Legal and Constitutional Affairs. []$[][][][][] [] [] [] [][][] [] [][][] [] [][] []
  []
 
@@ -987,30 +987,30 @@ Underfull \hbox (badness 1874) in paragraph at lines 982--984
 ]
 Appendix A.
 [59]
-Overfull \hbox (0.22893pt too wide) in paragraph at lines 1029--1030
+Overfull \hbox (0.22893pt too wide) in paragraph at lines 1039--1040
 \TU/lmr/m/n/10 components when building an operating and sustainable RBM system. To have a
  []
 
 
-Overfull \hbox (648.88005pt too wide) in paragraph at lines 1035--1169
+Overfull \hbox (648.88005pt too wide) in paragraph at lines 1045--1179
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 256.3996pt on input line 1169.
+LaTeX Warning: Float too large for page by 256.3996pt on input line 1179.
 
 
-Overfull \hbox (429.09006pt too wide) in paragraph at lines 1173--1226
+Overfull \hbox (429.09006pt too wide) in paragraph at lines 1183--1236
  [][] 
  []
 
 
-Overfull \hbox (609.34007pt too wide) in paragraph at lines 1230--1271
+Overfull \hbox (609.34007pt too wide) in paragraph at lines 1240--1281
  [][] 
  []
 
 
-Overfull \hbox (474.43007pt too wide) in paragraph at lines 1275--1328
+Overfull \hbox (474.43007pt too wide) in paragraph at lines 1285--1338
  [][] 
  []
 
@@ -1020,25 +1020,25 @@ File: ./images/figure_8.png Graphic file (type bmp)
 [63] [64]
 Appendix B.
 
-Overfull \hbox (2574.01021pt too wide) in paragraph at lines 1385--1518
+Overfull \hbox (2574.01021pt too wide) in paragraph at lines 1395--1528
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 256.3996pt on input line 1518.
+LaTeX Warning: Float too large for page by 256.3996pt on input line 1528.
 
 
-Overfull \hbox (2610.60014pt too wide) in paragraph at lines 1522--1575
+Overfull \hbox (2610.60014pt too wide) in paragraph at lines 1532--1585
  [][] 
  []
 
 
-Overfull \hbox (2749.6302pt too wide) in paragraph at lines 1579--1620
+Overfull \hbox (2749.6302pt too wide) in paragraph at lines 1589--1630
  [][] 
  []
 
 
-Overfull \hbox (2019.40013pt too wide) in paragraph at lines 1624--1677
+Overfull \hbox (2019.40013pt too wide) in paragraph at lines 1634--1687
  [][] 
  []
 
@@ -1050,42 +1050,42 @@ Overfull \hbox (2019.40013pt too wide) in paragraph at lines 1624--1677
 Appendix C.
 [71] [72]
 Appendix D.
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 1728.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 1738.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 15.0pt on input line 1728.
+(Font)              scaled to size 15.0pt on input line 1738.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.49995pt on input line 1728.
+(Font)              scaled to size 10.49995pt on input line 1738.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 1728.
+(Font)              scaled to size 7.5pt on input line 1738.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 15.00137pt on input line 1728.
+(Font)              scaled to size 15.00137pt on input line 1738.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.5009pt on input line 1728.
+(Font)              scaled to size 10.5009pt on input line 1738.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.50069pt on input line 1728.
+(Font)              scaled to size 7.50069pt on input line 1738.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.9984pt on input line 1728.
+(Font)              scaled to size 14.9984pt on input line 1738.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.49883pt on input line 1728.
+(Font)              scaled to size 10.49883pt on input line 1738.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.49919pt on input line 1728.
+(Font)              scaled to size 7.49919pt on input line 1738.
 
-Overfull \hbox (2.925pt too wide) in paragraph at lines 1762--1762
+Overfull \hbox (2.925pt too wide) in paragraph at lines 1772--1772
 []\TU/lmr/m/n/15 Organisation|  
  []
 
 
-Overfull \hbox (0.85501pt too wide) in paragraph at lines 1762--1762
+Overfull \hbox (0.85501pt too wide) in paragraph at lines 1772--1772
 []\TU/lmr/bx/n/15 MacLeavy|  
  []
 
 
-Overfull \hbox (1346.98997pt too wide) in paragraph at lines 1728--1763
+Overfull \hbox (1346.98997pt too wide) in paragraph at lines 1738--1773
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 539.09903pt on input line 1763.
+LaTeX Warning: Float too large for page by 539.09903pt on input line 1773.
 
 [73
 
@@ -1097,7 +1097,7 @@ Overfull \hbox (41.50343pt too wide) has occurred while \output is active
 [74]
 Appendix E.
 
-Underfull \hbox (badness 3354) in paragraph at lines 1795--1797
+Underfull \hbox (badness 3354) in paragraph at lines 1805--1807
 []\TU/lmr/bx/n/10 Performance Monitoring and Evaluation System (PMES)
  []
 
