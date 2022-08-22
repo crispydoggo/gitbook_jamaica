@@ -17,7 +17,7 @@ Jamaica is also an important promoter at the international level for status’ r
 ].
 
 
-Table: (\#tab:table2) General Statistics of Dominica^[All data was consulted on the World Bank data website: https://data.worldbank.org/indicator]
+Table: (\#tab:table2) General Statistics of Jamaica^[All data was consulted on the World Bank data website: https://data.worldbank.org/indicator]
 
 | |   | |
 | :----- | :-----------: | -----------: |
