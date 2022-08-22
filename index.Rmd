@@ -1,7 +1,4 @@
 --- 
-title: "Jamaica's Preparedness \\ Diagnosis"
-author: "CARICOM"
-date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 fontsize: 10pt
@@ -16,12 +13,10 @@ github-repo: rstudio/bookdown-demo
 
 
 
-# Welcome {-}
-
-This is the website for Jamaica's Preparedness Diagnosis Report by GEI and CLEAR LAC!
+# Jamaica's Preparedness Diagnosis {-}
 
 
-```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), out.width = '75%'}
+```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), out.width = '100%'}
 knitr::include_graphics('./images/cover.png', dpi = NA)
 knitr::opts_chunk$set(fig.align = 'center')
 

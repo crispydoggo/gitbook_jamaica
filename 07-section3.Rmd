@@ -33,7 +33,7 @@ As the system stays in place and becomes mature, all the dimensions will be stre
 
 
 
-## Ideal RBM system and working process
+## Ideal RBM system and working process {#section3.2}
 
 The development of an RBM System is a complex and nonlinear process that must be contextualized to the specific Member State. To establish a roadmap to strengthen or build an RBM system, the following three elements were considered:
 

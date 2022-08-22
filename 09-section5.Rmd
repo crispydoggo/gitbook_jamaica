@@ -80,7 +80,7 @@ dim_1 <-  results %>%
           select( -dimension, -dimension_id, -element_id ) 
 
 kable(dim_1) %>%
-          kable_paper("striped", full_width = T, font_size = 12) %>%
+          kable_paper("striped", full_width = T, font_size = 14) %>%
           column_spec(1, bold = T, border_right = T) %>%
           column_spec(2, width = "33em")
           
@@ -104,7 +104,7 @@ dim_1 <-  results %>%
           select( -dimension, -dimension_id, -element_id ) 
 
 kable(dim_1) %>%
-          kable_paper("striped", full_width = T, font_size = 12) %>%
+          kable_paper("striped", full_width = T, font_size = 14) %>%
           column_spec(1, bold = T, border_right = T) %>%
           column_spec(2, width = "33em")
           
@@ -128,7 +128,7 @@ dim_1 <-  results %>%
           select( -dimension, -dimension_id, -element_id ) 
 
 kable(dim_1) %>%
-          kable_paper("striped", full_width = T, font_size = 12) %>%
+          kable_paper("striped", full_width = T, font_size = 14) %>%
           column_spec(1, bold = T, border_right = T) %>%
           column_spec(2, width = "33em")
           
@@ -152,7 +152,7 @@ dim_1 <-  results %>%
           select( -dimension, -dimension_id, -element_id ) 
 
 kable(dim_1) %>%
-          kable_paper("striped", full_width = T, font_size = 12) %>%
+          kable_paper("striped", full_width = T, font_size = 14) %>%
           column_spec(1, bold = T, border_right = T) %>%
           column_spec(2, width = "33em")
           
@@ -161,7 +161,7 @@ kable(dim_1) %>%
 
 ##	Main challenges to strengthen the RBM system
 
-As mentioned in [section 2.2](#section2), the development of an RBM System is a complex, nonlinear, and continuous process that must be contextualized in each country. In doing so, it is important to consider the main challenges that Dominica faces when it comes to strengthening its RBM system. This diagnosis identifies three major challenges:
+As mentioned in [section 3.2](#section3.2), the development of an RBM System is a complex, nonlinear, and continuous process that must be contextualized in each country. In doing so, it is important to consider the main challenges that Dominica faces when it comes to strengthening its RBM system. This diagnosis identifies three major challenges:
 
 1.	Changing the culture and fostering the enabling environment to have an RBM system in place implies a change of mindset of public servants at all levels. It should be considered that throughout the process there must be a constant awareness/sensitization strategy, both in the short and medium term, that allows public servants to identify the importance to have this mindset change in pursuit of RBM. In other words, on a regular basis,  there needs to be reminders on the importance of RBM and its impact on improving performance and lives of all citizens
 
